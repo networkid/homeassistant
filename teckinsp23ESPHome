@@ -4,8 +4,8 @@ esphomeyaml:
   board: esp8285
 
 wifi:
-  ssid: 
-  password: 
+  ssid: yourSSID
+  password: yourpassword
   manual_ip:
     # Set this to the IP of the ESP
     static_ip: 192.168.0.0
@@ -18,10 +18,10 @@ logger:
 
 # Enable Home Assistant API
 api:
-  password: 
+  password: yourHApassword
 
 ota:
-  password: 
+  password: yourOTApassword
 time:
   - platform: homeassistant
     id: homeassistant_time
